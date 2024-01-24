@@ -20,6 +20,13 @@ export class SideMenuComponent {
 
     public authMenu: MenuItem[] = [
         { title: 'Registro', route: './auth' },
+    ]
+
+    public selectoresMenu: MenuItem[] = [
         { title: 'Selectores', route: './countries' }
+    ]
+
+    public lifeCycleMenu: MenuItem[] = [
+        { title: 'LifeCycle', route: './lifecycle' },
     ]
 }

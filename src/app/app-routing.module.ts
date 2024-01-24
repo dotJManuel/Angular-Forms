@@ -15,6 +15,10 @@ const routes: Routes = [
         loadChildren: () => import('./countries/countries.module').then( m => m.CountriesModule )
     },
     {
+        path: 'lifecycle',
+        loadChildren: () => import('./products/products.module').then( m => m.ProductsModule )
+    },
+    {
         path: '**',
         redirectTo: 'reactive'
     }
